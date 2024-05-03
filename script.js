@@ -4,7 +4,7 @@ function firstChar(text) {
 		return ''
 	}
 	for (let i = 0; i < text.length; i++) {
-		if (text[i] ! ==  '') {
+		if (text[i] !==  ' ') {
 			return text[i]
 		}
 	}
